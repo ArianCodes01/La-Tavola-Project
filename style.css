@@ -121,7 +121,7 @@ header {
     text-align: center;
 }
 
-.hero-content{
+.hero-content {
     position: relative;
     height: 905px;
     display: flex;
@@ -222,7 +222,6 @@ header {
 }
 
 
-
 @media screen and (min-width: 640px) {
     .heroBtns {
         display: flex;
@@ -236,5 +235,77 @@ header {
     .viewBtn {
         width: 200px;
         height: 56px;
+    }
+}
+
+/* story section */
+
+.story {
+    background-color: #030712;
+    padding: 90px 0;
+}
+
+.story .left-img img {
+    object-fit: cover;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.story .right-content span {
+    color: #f87171;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.story .right-content h2 {
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.story .desc {
+    color: #9ca3af;
+    line-height: 1.5;
+}
+
+.story .top-p {
+    margin-bottom: 1rem;
+    font-size: 17px;
+}
+
+.story .bottom-p {
+    padding-bottom: 40px;
+    font-size: 15.5px;
+}
+
+.story .stats {
+    border-top: 1px solid #1e2835;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-top: 40px;
+}
+
+.story .stat-item {
+    text-align: center;
+}
+
+.story .number {
+    color: #f87171;
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.story .name {
+    color: #9ca3af;
+    font-size: .875rem;
+}
+
+@media screen and (max-width: 992px) {
+    .story .right-content h2 {
+        font-size: 2.3rem;
     }
 }
