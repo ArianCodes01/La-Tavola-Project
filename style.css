@@ -316,7 +316,7 @@ header {
 
 .menu {
     background-color: #111827;
-    padding: 80px 0;
+    padding: 110px 0;
 }
 
 .section-top {
@@ -356,6 +356,8 @@ header {
 
 .item-top {
     position: relative;
+    aspect-ratio: 1;
+    overflow: hidden;
 }
 
 .item-top img {
@@ -418,6 +420,24 @@ header {
     align-items: center;
     padding: 2px 10px;
     width: 90px;
+}
+
+.full-menu {
+    color: #f87171;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.full-menu:hover {
+    color: #fca5a5;
+}
+
+.full-menu i {
+    margin-left: 5px;
 }
 
 @media screen and (min-width: 992px) {
