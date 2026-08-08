@@ -133,6 +133,7 @@ header {
     color: #f87171;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 .hero h1 {
@@ -255,6 +256,7 @@ header {
     color: #f87171;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 .story .right-content h2 {
@@ -307,5 +309,119 @@ header {
 @media screen and (max-width: 992px) {
     .story .right-content h2 {
         font-size: 2.3rem;
+    }
+}
+
+/* menu section */
+
+.menu {
+    background-color: #111827;
+    padding: 80px 0;
+}
+
+.section-top {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-top span {
+    color: #f87171;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.section-top h2 {
+    color: white;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 1rem 0;
+}
+
+.section-top p {
+    color: #9ca3af;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.menu-item {
+    background-color: #1f2937;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px -4px #0000001a;
+    overflow: hidden;
+}
+
+.menu-item:hover .item-top img {
+    transform: scale(1.1);
+}
+
+.item-top {
+    position: relative;
+}
+
+.item-top img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.item-top .badge {
+    color: white;
+    font-weight: 500;
+    font-size: .75rem;
+    background-color: #dc2626;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 100px;
+    padding: 3px 13px;
+}
+
+.item-bottom {
+    padding: 20px;
+}
+
+.title-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.title-price h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.title-price span {
+    color: #f87171;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.item-bottom p {
+    color: #9ca3af;
+    font-size: .875rem;
+    line-height: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.gluten-free-badge {
+    color: #d1d5db;
+    background-color: #374151;
+    font-weight: 500;
+    font-size: .75rem;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 10px;
+    width: 90px;
+}
+
+@media screen and (min-width: 992px) {
+    .menu-item {
+        height: 450px;
     }
 }
