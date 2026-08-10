@@ -617,7 +617,8 @@ header {
 .right-form form input::placeholder {
     color: rgb(172, 172, 172);
 }
-.right-form form textarea::placeholder{
+
+.right-form form textarea::placeholder {
     color: rgb(172, 172, 172);
 }
 
@@ -636,8 +637,11 @@ header {
 
 .two-inputs {
     display: flex;
-    flex-direction: column;
-    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.reservations .right-form [class^="col-"] {
+    padding: 0 16px;
 }
 
 .formBtn {
@@ -650,7 +654,6 @@ header {
     border-radius: .5rem;
     padding: 16px;
     border: none;
-    margin: 30px 0;
     transition: all 0.3s ease;
     box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 20px 25px -5px color-mix(in oklab, oklab(57.7099% .191149 .0987651/.3) 100%, transparent), 0 8px 10px -6px color-mix(in oklab, oklab(57.7099% .191149 .0987651/.3) 100%, transparent);
 }
