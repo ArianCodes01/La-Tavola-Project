@@ -504,17 +504,164 @@ header {
     height: 48px;
     border-radius: 50%;
 }
-.profile-name{
+
+.profile-name {
     color: white;
     font-weight: 600;
 }
-.profile-desc{
+
+.profile-desc {
     color: #6b7280;
     font-size: .875rem;
 }
 
-@media screen and (min-width: 768px){
-    .testimonial-item{
+@media screen and (min-width: 768px) {
+    .testimonial-item {
         height: 310px;
     }
+}
+
+/* reservations section */
+
+.reservations {
+    background-color: #111827;
+    padding: 110px 0;
+}
+
+.left-content .top-orange-span {
+    color: #f87171;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.left-content h2 {
+    color: white;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 1.3rem 0;
+}
+
+.left-content .desc {
+    color: #d1d5db;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.call-us {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.call-us p {
+    color: #9ca3af;
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+
+.call-us div {
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    gap: 13px;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+}
+
+.call-us div span {
+    transition: all 0.3s ease;
+}
+
+.call-us div:hover span {
+    color: #f87171;
+}
+
+.call-us div i {
+    color: #f87171;
+}
+
+.right-form form {
+    background-color: #1f2937;
+    border-radius: 1rem;
+    padding: 32px;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-input label {
+    color: #d1d5db;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+
+.right-form form input,
+.right-form form select,
+.right-form form textarea {
+    background-color: #374151;
+    border: 1px solid #4b5563;
+    color: rgb(172, 172, 172);
+    border-radius: .5rem;
+    margin-top: 4px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+
+.right-form form input::placeholder {
+    color: rgb(172, 172, 172);
+}
+.right-form form textarea::placeholder{
+    color: rgb(172, 172, 172);
+}
+
+.right-form form input:focus {
+    border-color: #ef4444;
+}
+
+.right-form form select:focus {
+    border-color: #ef4444;
+}
+
+.right-form form textarea:focus {
+    border-color: #ef4444;
+}
+
+
+.two-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.formBtn {
+    color: white;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background-color: #dc2626;
+    border-radius: .5rem;
+    padding: 16px;
+    border: none;
+    margin: 30px 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 20px 25px -5px color-mix(in oklab, oklab(57.7099% .191149 .0987651/.3) 100%, transparent), 0 8px 10px -6px color-mix(in oklab, oklab(57.7099% .191149 .0987651/.3) 100%, transparent);
+}
+
+.formBtn:hover {
+    background-color: #b91c1c;
+}
+
+.formDesc {
+    text-align: center;
+    color: #9ca3af;
+    font-size: .875rem;
+    line-height: 1.5;
 }
