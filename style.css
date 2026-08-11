@@ -34,6 +34,11 @@ h6 {
 header {
     background-color: #030712;
     padding: 20px 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
 
 .header-content {
@@ -114,7 +119,7 @@ header {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 905px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,7 +128,7 @@ header {
 
 .hero-content {
     position: relative;
-    height: 905px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -525,6 +530,11 @@ header {
 
 .reservations {
     background-color: #111827;
+    background-image: url(./images/gallery-4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
     padding: 110px 0;
 }
 
